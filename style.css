@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #0e2430;
+    background-size: 190%;
+    background-position: center;
+}
+
+.cabecalho {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.conteudo-principal {
+    text-align: center;
+}
+
+.conteudo-principal-escrito-titulo {
+    margin-bottom: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffeacc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Adicione a seguinte regra para o container das imagens */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+/* Adicione a seguinte regra para cada personagem */
+.personagem {
+    text-align: center;
+    margin: 10px; /* Ajuste conforme necessário */
+    flex: 0 0 calc(25% - 20px); /* Calcula a largura para 4 imagens por linha com margens */
+    box-sizing: border-box;
+}
+
+/* Adicione a seguinte regra para as imagens dentro de cada personagem */
+.personagem img {
+    width: 25%;
+    max-width: 100%;
+    margin: 25px;
+}
+
+/* Adicione a seguinte regra para os parágrafos (nomes dos personagens) */
+.personagem p {
+    text-align: center;
+    color: #ffeacc;
+    margin: 15px 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.caixa-texto {
+    border-radius: 25px;
+    background-color: #433d3d;
+    width: 100%;
+    max-width: 300px; /* Ou substitua 300px pelo valor desejado */
+    margin: 0 auto; /* Isso centralizará o botão na tela */
+}
+.caixa-texto p  {
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+}
+
